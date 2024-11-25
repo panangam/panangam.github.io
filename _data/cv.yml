@@ -2,31 +2,20 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Oras Phongpanangam
     - name: Date of Birth
-      value: 14th March 1879
+      value: 2024/11/10
     - name: Languages
-      value: English, German
+      value: English, Thai, Japanese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.S. in Computer Science, Mathematics (Double Major)
+      institution: Santa Clara University
+      year: 2016/09-2019/07  
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 3.71"
 
 - title: Experience
   type: time_table
