@@ -20,7 +20,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Prospective graduate students. 
+Prospective graduate students.
+
 - Geometry processing, discrete differential geometry, 3D machine learning
 - Industry experience in fashion, automobile, and cinema VFX industries
 
