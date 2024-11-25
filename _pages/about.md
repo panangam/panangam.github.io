@@ -23,6 +23,6 @@ social: true # includes social icons at the bottom of the page
 Prospective graduate students.
 
 - Geometry processing, discrete differential geometry, 3D machine learning
-- Industry experience in fashion, automobile, and cinema VFX industries
+- Industry experience in fashion, automobile, and cinema VFX
 
 Cirriculum Vitae: <a href="/assets/pdf/cv_november_2024.pdf"><i class="fa-regular fa-file-pdf"></i> Download</a>
