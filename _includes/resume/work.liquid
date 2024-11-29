@@ -3,7 +3,7 @@
   {% for content in work %}
     <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
+        <div class="col-md-2 d-flex flex-column align-items-center mb-4">
           {% if content.startDate %}
             {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
             {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
@@ -12,31 +12,24 @@
           {% else %}
             {% assign date = '' %}
           {% endif %}
-          <table class="table-cv">
-            <tbody>
-              <tr>
-                <td>
-                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px"> {{ date }} </span>
-                </td>
-              </tr>
-              {% if content.location %}
-                <tr>
-                  <td>
-                    <p class="location">
-                      <i class="fa-solid fa-location-dot iconlocation"></i>
-                      {{ content.location }}
-                    </p>
-                  </td>
-                </tr>
-              {% endif %}
-            </tbody>
-          </table>
+          <div style="width: min-content;">
+            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="width: fit-content;"> {{ date }} </span>
+            {% if content.img %}
+              <div class="mt-2 rounded" style="
+                overflow: hidden; 
+                width: 100%; 
+                aspect-ratio: 1; 
+                background-image: url(/assets/img/work/{{ content.img }}); 
+                background-size: contain;
+              "></div>
+            {% endif %}
+          </div>
         </div>
-        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
-          <h6 class="title font-weight-bold ml-1 ml-md-4">
-            <a href="{{ content.url }}">{{ content.position }}</a>
+        <div class="col-md-10 mt-2 mt-md-0">
+          <h6 class="title font-weight-bold ml-1 ml-md-4">{{ content.position }}</h6>
+          <h6 class="ml-1 ml-md-4 font-weight-bold" style="font-size: 0.95rem">
+            <a href="{{ content.url }}">{{ content.name }}</a>
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.name }}</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.summary }}</h6>
           <ul class="items">
             {% for item in content.highlights %}

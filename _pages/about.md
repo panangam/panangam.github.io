@@ -24,4 +24,4 @@ Prospective graduate student.
 - Geometry processing, discrete differential geometry, 3D machine learning
 - Industry experience in fashion, automobile, and cinema VFX
 
-**Cirriculum Vitae:** <a href="/assets/pdf/cv_november_2024.pdf"><i class="fa-regular fa-file-pdf"></i> Download</a>
+Check out my <a href="/cv">Resume page</a> or download my <a href="/assets/pdf/cv_november_2024.pdf"><i class="fa-regular fa-file-pdf"></i> cirrivulum vitae.</a>
