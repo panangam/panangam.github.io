@@ -15,13 +15,16 @@
           <div style="width: min-content;">
             <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="width: fit-content;"> {{ date }} </span>
             {% if content.img %}
-              <div class="mt-2 rounded" style="
-                overflow: hidden; 
-                width: 100%; 
-                aspect-ratio: 1; 
-                background-image: url(/assets/img/work/{{ content.img }}); 
-                background-size: contain;
-              "></div>
+              <div
+                class="mt-2 rounded"
+                style="
+                  overflow: hidden;
+                  width: 100%;
+                  aspect-ratio: 1;
+                  background-image: url(/assets/img/work/{{ content.img }});
+                  background-size: contain;
+                "
+              ></div>
             {% endif %}
           </div>
         </div>

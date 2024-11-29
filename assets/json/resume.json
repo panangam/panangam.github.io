@@ -29,7 +29,7 @@
       "endDate": "2021-07",
       "summary": "",
       "highlights": [
-        "Pioneered a novel machine learning system for automated denim pattern generation from 3D body scans, achieving 90% customer fit satisfaction on first try-on and reduced manual intervention by 50%.", 
+        "Pioneered a novel machine learning system for automated denim pattern generation from 3D body scans, achieving 90% customer fit satisfaction on first try-on and reduced manual intervention by 50%.",
         "Designed an optimization framework for pattern sewability, including seams and angles matching, utilizing custom Python-based geometry kernels and Scipy’s constrained optimization toolbox."
       ],
       "img": "unspun-logo.png"
@@ -77,42 +77,22 @@
     {
       "name": "Programming",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python", 
-        "C++", 
-        "JavaScript", 
-        "LaTeX"
-      ]
+      "keywords": ["Python", "C++", "JavaScript", "LaTeX"]
     },
     {
       "name": "Technologies",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "PyTorch", 
-        "Numpy", 
-        "Taichi", 
-        "Matplotlib",
-        "Jupyter",
-        "Svelte",
-        "CSS"
-      ]
+      "keywords": ["PyTorch", "Numpy", "Taichi", "Matplotlib", "Jupyter", "Svelte", "CSS"]
     },
     {
       "name": "Electronics",
       "icon": "fa-solid fa-bolt",
-      "keywords": [
-        "Arduino", 
-        "ESP32"
-      ]
+      "keywords": ["Arduino", "ESP32"]
     },
     {
       "name": "Tools",
       "icon": "fa-solid fa-wrench",
-      "keywords": [
-        "UNIX/Linux", 
-        "Audacity",
-        "Photoshop"
-      ]
+      "keywords": ["UNIX/Linux", "Audacity", "Photoshop"]
     }
   ],
   "languages": [
